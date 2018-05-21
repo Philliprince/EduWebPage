@@ -1631,7 +1631,7 @@
 .z_list ul li .wen p{
 	line-height: 24px;
 }
-
+/* topbanner的css */
 .header-main {
 	margin: 0 auto;
 	padding: 1rem;
@@ -1659,7 +1659,7 @@
 
 .header .info {
 	color: #ddb100;
-	font: normal 2.5rem STHeiti;
+	font: normal 1.9rem STHeiti;
 }
 
 .header .info,
@@ -1668,7 +1668,7 @@
 }
 
 .header .title {
-	font: 700 2.6rem STKaiti;
+	font: 700 1.9rem STKaiti;
 	padding: 0 1rem;
 	text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff;
 }
