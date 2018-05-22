@@ -22,7 +22,7 @@ nav ul li:hover {
 }
 nav ul li a {
   position: absolute;
-  width: 300px;
+  width: 240px;
   height: 40px;
   text-decoration: none;
   color: #555;
@@ -32,42 +32,42 @@ nav ul li a:hover {
   color: #fff;
 }
 
-.store {
+.greentab {
   background: #b3c833;
   width: 20px;
   height: 50px;
   margin-bottom: px;
 }
 
-.movies {
+.redtab {
   background: #ce5043;
-  width: 20px;
+  width: 20px; 
   height: 50px;
   margin-bottom: px;
 }
 
-.music {
+.orangetab {
   background: #fb8521;
   width: 20px;
   height: 50px;
   margin-bottom: px;
 }
 
-.books {
+.bluetab {
   background: #1aa1e1;
   width: 20px;
   height: 50px;
   margin-bottom: px;
 }
 
-.magazines {
+.purpletab {
   background: #5e5ca6;
   width: 20px;
   height: 50px;
   margin-bottom: px;
 }
 
-.devices {
+.greytab {
   background: #658092;
   width: 20px;
   height: 50px;

@@ -233,12 +233,8 @@
 	margin-left: 14px;
 	width: 14px;
 	height: 14px;
-	background:url(../images/ico1.png) no-repeat;
 	cursor: pointer;
 	border-radius: 50%;
-}
-.slideBox2 .hd ul li.on {
-	background: url(../images/ico.png) no-repeat;
 }
 .slideBox2 .bd li {
 	position: relative;
@@ -278,7 +274,6 @@
 .slideBox2 .next {
 	width:40px;
 	height: 74px;
-	background: url(../images/arrow2.png) 0 0 no-repeat;
 }
 .slideBox2 .next{
 	background-position: right 0;
@@ -527,7 +522,7 @@
 	white-space: nowrap;
 	overflow: hidden;
 }
-.oneLeft .insidelOne .insiBom .trailer{
+/* .oneLeft .insidelOne .insiBom .trailer{
 	width: 268px;
 	height: auto;
 	margin-left: 20px;
@@ -566,7 +561,7 @@
 }
 .oneLeft .insidelOne .insiBom .trailer p a{
 	color: #5a7fa1;
-}
+} */
 /*æ–‡å­—åˆ—è¡¨*/
 .oneLeft .insidelOne .insiBom .textList,
 .oneRight .insiderOne .textList{
@@ -1538,7 +1533,7 @@
 	border-bottom: 1px dashed #eee;
 }
 .brief p{
-	color: #666666;
+	/* color: #666666; */
 	text-indent: 2em;
 	line-height: 30px;
 }
