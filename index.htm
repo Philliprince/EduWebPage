@@ -7,6 +7,26 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style/public.css">
     <link rel="stylesheet" href="style/master.css">
+    <script type="text/javascript">
+        // Update the 'nojs'/'js' class on the html node
+        document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+        // Check that all required assets are uploaded and up-to-date
+        if (typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = { "required": ["museutils.js", "museconfig.js", "jquery.musemenu.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.musepolyfill.bgsize.js", "jquery.scrolleffects.js", "require.js", "index.css"], "outOfDate": [] };
+    </script>
+
+    <title>Home</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867" />
+    <link rel="stylesheet" type="text/css" href="css/index.css?crc=3934719027" id="pagesheet" />
+    <!-- Other scripts -->
+    <script type="text/javascript">
+        var __adobewebfontsappname__ = "muse";
+    </script>
+    <!-- JS includes -->
+    <script src="https://webfonts.creativecloud.com/coda:n4:all.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+      <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
+      <![endif]-->
     <script type="text/javascript" src="js/bdtxk.js"></script>
     <script type="text/javascript" src="js/SuperSlide.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
@@ -54,7 +74,6 @@
                 <li>
                     <a href="index.htm">首页</a>
                 </li>
-                <div class="tit"><p></p></div>
                 <li class="mainMenu">
                     <a class="link" href="cgjj.htm">成果简介</a>
                 </li>
@@ -127,9 +146,6 @@
 
                             <li>
                     <img src="images/banner6(2).jpg" height="600px"  width="100%">
-                                <div class="tit">
-                                    <p></p>
-                                </div>
 
                                 <li>
 
@@ -169,170 +185,314 @@
 
     <!--页面主体部分-->
     <!-- main部分-横 -->
-    <div class="vsb-box">
-        <!--mainOne-->
-
-        <div class="vsb-container mainOne cleafix" containerid="2" columns="4">
-            <div class="vsb-space twoLeft" columns="2">
-                <h2 class="Title cleafix">
-                    <span>成果构成与核心内容</span>
-                    <a href="cgsp.htm" class="more">
-                        <img src="images/ico3.png" />
-                    </a>
-                </h2>
-                <div class="twol cleafix">
-                    <div class="insiFocus fl">
-
-                        <table width="100%" cellspacing="0" cellpadding="0">
-                            <script language="javascript" src="/system/resource/js/news/mp4video.js"></script>
-                            <script language="javascript" src="/system/resource/interview/js/flowplayer-3.2.8.min.js"></script>
-                            <tr>
-                                <td colspan="5">
-                                    <div id="u5" style="display:none;width:282px;height:211px;">
-                                        <script name="_videourl" vurl="/__local/5/A8/1A/E25CD530294EE826232623A8B75_C9091D64_2C5B8BE8.mp4?e=.mp4" vwidth="width="
-                                            282 "" vheight="height=" 211 "">showVsbVideo('/__local/5/A8/1A/E25CD530294EE826232623A8B75_C9091D64_2C5B8BE8.mp4?e=.mp4', 'height="211"', 'width="282"', '', '', 'false', 'id="MediaPlayeru5"');</script>
-
-                                    </div>
-                                    <div id="u5u5" style="cursor:pointer;width:282;height:211">
-                                        <img src="images/spt.jpg" title="点击播放视频" onclick="doPlayVideou5()" width="282" height="211">
-                                    </div>
-                                </td>
-                            </tr>
-
-                        </table>
-                        <script>
-                            function doPlayVideou5() {
-                                var isrm = "false";
-                                var isflv = "false";
-                                try {
-                                    if (isrm == "true") {
-                                        document.getElementById("MediaPlayeru5").DoPlay();
-                                    } else if (isflv == "true") {
-                                        document.getElementById("MediaPlayeru5").Play();
-                                    }
-                                    else {
-                                        document.getElementById("MediaPlayeru5").fp_play();
-                                    }
-                                } catch (e) {
-                                }
-                                document.getElementById("u5").style.display = "inline";
-                                document.getElementById("u5u5").style.display = "none";
-                            }
-
-                        </script>
-                    </div>
-                    <ul class="two-list">
-                        <div class="trailer fl">
-                            <h2 style="font-size: 16px;color: #666666;display: inline-block;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;">
-                                <a href="info/1092/1157.htm">创设“双分”矩阵式培养体系</a>
-                            </h2>
-                            <h3 style="font-size: 12px;color: #c1c1c1;margin-top: 4px;height: 16px;line-height: 16px;">2018-05-19</h3>
-                            <p style="line-height: 24px;font-size: 14px;color: #666;text-indent: 2em;margin-top: 5px;">根据不同层次、不同类型的研究生培养要求，健全“学术研究-国际培养-工程实践-校企协同”分类培养体系，从教学层面对研究生实施精细化培养，拓宽研究生教育发展空间；基于信通学科“信息理论与信息处理、信息通信网络、多媒体与网络大数据、无线和移动通信”4个主要学科方向...[
-                                <a
-                                    href="info/1092/1157.htm" style="color: #5a7fa1;">详细</a>]</p>
+    <div class="clearfix" id="page">
+        <div class="clearfix grpelem" id="pu650">
+            <div class="clearfix colelem" id="pbuttonu594">
+                <!-- group -->
+                <div class="Button clearfix grpelem" id="buttonu594">
+                    <!-- container box -->
+                    <div class="museBGSize clearfix colelem" id="u597">
+                        <!-- group -->
+                        <div class="rounded-corners clearfix grpelem" id="u599-4">
+                            <!-- content -->
+                            <p>科研成果</p>
                         </div>
-                        <script>_showDynClickBatch(['dynclicks_u6_1157'], [1157], "wbnews", 1451262629)</script>
-
-                    </ul>
+                    </div>
+                    <div class="clearfix colelem" id="u596">
+                        <!-- column -->
+                        <div class="position_content" id="u596_position_content">
+                            <div class="clearfix colelem" id="u595-4">
+                                <!-- content -->
+                                <p>23 May 2018</p>
+                            </div>
+                            <div class="clearfix colelem" id="u600-4">
+                                <!-- content -->
+                                <p>“双分双合，多维协同”通信学科创新人才培养模式的研究与实践</p>
+                            </div>
+                            <div class="clearfix colelem" id="u601-4">
+                                <!-- content -->
+                                <p>信息与通信工程学科（简称信通学科）是信息领域科技发展与人才培养的重要支撑，随着遍及各行各业的信息通信网络的飞速发展，满足行业要求的创新人才数量与规模需求十分迫切，传统信通学科“小规模-同质化-方向单一的人才培养模式”难以满足社会发展需求。在教育部等项目支持下，本成果经过10年的探索与实践，以新模式和新方法为突破口，秉承“德育为先，质量为本”的研究生教育理念。</p>
+                            </div>
+                            <div class="clearfix colelem" id="u598-4">
+                                <!-- content -->
+                                <p>read more</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-
-            <div class="vsb-space threeLeft" columns="2">
-                <div class="insiFocus">
-
-                    <div class="bd">
-                        <ul>
-
-
-                            <li>
-                                <img src="images/cgcxt.png">
-
-
-                            </li>
-                        </ul>
+                <div class="Button clearfix grpelem" id="buttonu586">
+                    <!-- container box -->
+                    <div class="museBGSize clearfix colelem" id="u590">
+                        <!-- group -->
+                        <div class="rounded-corners clearfix grpelem" id="u589-4">
+                            <!-- content -->
+                            <p>科研团队</p>
+                        </div>
+                    </div>
+                    <div class="clearfix colelem" id="u588">
+                        <!-- column -->
+                        <div class="position_content" id="u588_position_content">
+                            <div class="clearfix colelem" id="u587-4">
+                                <!-- content -->
+                                <p>23 May 2018</p>
+                            </div>
+                            <div class="clearfix colelem" id="u591-4">
+                                <!-- content -->
+                                <p>促进产学研的先进科研队伍</p>
+                            </div>
+                            <div class="clearfix colelem" id="u593-5">
+                                <!-- content -->
+                                <p>作为本成果负责人，多年来在信通学科研究生教育教学改革和建设中一直在进行深入的思考、积极的探索和实践，通过实践检验，行之有效。</p>
+                                <p>&nbsp;</p>
+                            </div>
+                            <div class="clearfix colelem" id="u592-4">
+                                <!-- content -->
+                                <p>read more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Button clearfix grpelem" id="buttonu602">
+                    <!-- container box -->
+                    <div class="museBGSize clearfix colelem" id="u604">
+                        <!-- group -->
+                        <div class="rounded-corners clearfix grpelem" id="u607-4">
+                            <!-- content -->
+                            <p>支撑材料</p>
+                        </div>
+                    </div>
+                    <div class="clearfix colelem" id="u608">
+                        <!-- column -->
+                        <div class="position_content" id="u608_position_content">
+                            <div class="clearfix colelem" id="u606-4">
+                                <!-- content -->
+                                <p>23 May 2018</p>
+                            </div>
+                            <div class="clearfix colelem" id="u603-4">
+                                <!-- content -->
+                                <p>不忘初心，砥砺前行</p>
+                            </div>
+                            <div class="clearfix colelem" id="u609-4">
+                                <!-- content -->
+                                <p>积极探索规模化需求的创新人才精细化分类培养机制，推动教师团队建设，解决学生在学科方向上研究与成长过程中存在的问题，指导的研究生多次获全国优博论文提名、校优博和校优硕论文。</p>
+                            </div>
+                            <div class="clearfix colelem" id="u605-4">
+                                <!-- content -->
+                                <p>read more</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-
-        <!--mainTwo-->
-        <!--mainThree-->
-        <div class="vsb-container mainOne cleafix" containerid="2" columns="4">
-
-
-            <div class="vsb-space twoRight" columns="2">
-                <h2 class="Title2 cleafix">
-                    <span>成果核心内容</span>
-                    <a href="cghxnr.htm" class="more">
-                        <img src="images/ico7.png" />
-                    </a>
-                </h2>
-
-                <ul class="bcon-bm">
-
-
-                    <li>
-                        <a href="info/1118/1160.htm">
-                            <span>2018-05-07</span>U-以建设泛在学习体系为主体，提高学生自主学习能力</a>
-                    </li>
-
-
-                    <li>
-                        <a href="info/1118/1161.htm">
-                            <span>2018-05-07</span>P-以拓展多元发展方法为支撑，提升学生综合能力素质</a>
-                    </li>
-
-
-                    <li>
-                        <a href="info/1118/1162.htm">
-                            <span>2018-05-07</span>T-以创新贯通培养机制为保障，促进创新人才脱颖而出</a>
-                    </li>
-
-
-                    <li>
-                        <a href="info/1118/1163.htm">
-                            <span>2018-05-07</span>构建培养质量保障体系</a>
-                    </li>
-
-                </ul>
-                <script>_showDynClickBatch(['dynclicks_u8_1160', 'dynclicks_u8_1161', 'dynclicks_u8_1162', 'dynclicks_u8_1163'], [1160, 1161, 1162, 1163], "wbnews", 1451262629)</script>
-
+            <div class="clearfix colelem" id="pbuttonu537">
+                <!-- group -->
+                <div class="Button clearfix grpelem" id="buttonu537">
+                    <!-- container box -->
+                    <div class="museBGSize clearfix colelem" id="u540">
+                        <!-- group -->
+                        <div class="rounded-corners clearfix grpelem" id="u544-4">
+                            <!-- content -->
+                            <p>科研成果</p>
+                        </div>
+                    </div>
+                    <div class="clearfix colelem" id="u539">
+                        <!-- column -->
+                        <div class="position_content" id="u539_position_content">
+                            <div class="clearfix colelem" id="u542-4">
+                                <!-- content -->
+                                <p>23 June 2015</p>
+                            </div>
+                            <a class="nonblock nontext clearfix colelem" id="u543-4" href="http://www.musefree.com">
+                                <!-- content -->
+                                <p>不忘初心，砥砺前行</p>
+                            </a>
+                            <div class="clearfix colelem" id="u541-4">
+                                <!-- content -->
+                                <p>积极探索规模化需求的创新人才精细化分类培养机制，推动教师团队建设，解决学生在学科方向上研究与成长过程中存在的问题，指导的研究生多次获全国优博论文提名、校优博和校优硕论文。</p>
+                            </div>
+                            <div class="clearfix colelem" id="u538-4">
+                                <!-- content -->
+                                <p>read more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Button clearfix grpelem" id="buttonu553">
+                    <!-- container box -->
+                    <div class="museBGSize clearfix colelem" id="u555">
+                        <!-- group -->
+                        <div class="rounded-corners clearfix grpelem" id="u556-4">
+                            <!-- content -->
+                            <p>科研成果</p>
+                        </div>
+                    </div>
+                    <div class="clearfix colelem" id="u558">
+                        <!-- column -->
+                        <div class="position_content" id="u558_position_content">
+                            <div class="clearfix colelem" id="u557-4">
+                                <!-- content -->
+                                <p>23 June 2015</p>
+                            </div>
+                            <div class="clearfix colelem" id="u559-4">
+                                <!-- content -->
+                                <p>不忘初心，砥砺前行</p>
+                            </div>
+                            <div class="clearfix colelem" id="u560-4">
+                                <!-- content -->
+                                <p>积极探索规模化需求的创新人才精细化分类培养机制，推动教师团队建设，解决学生在学科方向上研究与成长过程中存在的问题，指导的研究生多次获全国优博论文提名、校优博和校优硕论文。</p>
+                            </div>
+                            <div class="clearfix colelem" id="u554-4">
+                                <!-- content -->
+                                <p>read more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Button clearfix grpelem" id="buttonu529">
+                    <!-- container box -->
+                    <div class="museBGSize clearfix colelem" id="u531">
+                        <!-- group -->
+                        <div class="rounded-corners clearfix grpelem" id="u534-4">
+                            <!-- content -->
+                            <p>科研成果</p>
+                        </div>
+                    </div>
+                    <div class="clearfix colelem" id="u536">
+                        <!-- column -->
+                        <div class="position_content" id="u536_position_content">
+                            <div class="clearfix colelem" id="u530-4">
+                                <!-- content -->
+                                <p>23 June 2015</p>
+                            </div>
+                            <div class="clearfix colelem" id="u533-4">
+                                <!-- content -->
+                                <p>不忘初心，砥砺前行</p>
+                            </div>
+                            <div class="clearfix colelem" id="u532-4">
+                                <!-- content -->
+                                <p>积极探索规模化需求的创新人才精细化分类培养机制，推动教师团队建设，解决学生在学科方向上研究与成长过程中存在的问题，指导的研究生多次获全国优博论文提名、校优博和校优硕论文。</p>
+                            </div>
+                            <div class="clearfix colelem" id="u535-4">
+                                <!-- content -->
+                                <p>read more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Button clearfix grpelem" id="buttonu545">
+                    <!-- container box -->
+                    <div class="museBGSize clearfix colelem" id="u551">
+                        <!-- group -->
+                        <div class="rounded-corners clearfix grpelem" id="u552-4">
+                            <!-- content -->
+                            <p>科研成果</p>
+                        </div>
+                    </div>
+                    <div class="clearfix colelem" id="u550">
+                        <!-- column -->
+                        <div class="position_content" id="u550_position_content">
+                            <div class="clearfix colelem" id="u547-4">
+                                <!-- content -->
+                                <p>23 June 2015</p>
+                            </div>
+                            <div class="clearfix colelem" id="u546-4">
+                                <!-- content -->
+                                <p>不忘初心，砥砺前行</p>
+                            </div>
+                            <div class="clearfix colelem" id="u548-4">
+                                <!-- content -->
+                                <p>积极探索规模化需求的创新人才精细化分类培养机制，推动教师团队建设，解决学生在学科方向上研究与成长过程中存在的问题，指导的研究生多次获全国优博论文提名、校优博和校优硕论文。</p>
+                            </div>
+                            <div class="clearfix colelem" id="u549-4">
+                                <!-- content -->
+                                <p>read more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="vsb-space threeRight" columns="2">
-                <h2 class="Title2 cleafix">
-                    <span>成果创新点</span>
-                    <a href="cgcxd.htm" class="more">
-                        <img src="images/ico7.png" />
-                    </a>
-                </h2>
-                <ul class="bcon-bm">
-
-
-                    <li>
-                        <a href="info/1119/1166.htm">
-                            <span>2018-05-08</span>创建了以泛在学习、多元发展、贯通培养为核心的“三位一体”...</a>
-                    </li>
-
-
-                    <li>
-                        <a href="info/1119/1167.htm">
-                            <span>2018-05-08</span>创建了本硕博全程创新创业实践体系</a>
-                    </li>
-
-                </ul>
-                <script>_showDynClickBatch(['dynclicks_u9_1166', 'dynclicks_u9_1167'], [1166, 1167], "wbnews", 1451262629)</script>
-
+            <div class="browser_width colelem" id="u386-bw">
+                <div class="museBGSize" id="u386">
+                    <!-- group -->
+                    <div class="clearfix" id="u386_align_to_page">
+                        <img class="grpelem" id="u411-6" alt="以实施“四创”新方法为抓手 提升研究生教育服务需求能力" width="980" height="116" src="images/u411-6.png?crc=3811827098"
+                        />
+                        <!-- rasterized frame -->
+                    </div>
+                </div>
             </div>
-        </div>
-        <!--ad_one-->
-        <!--mainThree-->
-
-        <div class="vsb-container mainOne" columns="4" containerid="2">
+            <div class="browser_width colelem" id="u505-bw">
+                <div id="u505">
+                    <!-- group -->
+                    <div class="clearfix" id="u505_align_to_page">
+                        <div class="Button clearfix grpelem" id="buttonu514">
+                            <!-- container box -->
+                            <div class="museBGSize clearfix colelem" id="u519">
+                                <!-- group -->
+                                <div class="rounded-corners clearfix grpelem" id="u521-4">
+                                    <!-- content -->
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                            <div class="clearfix colelem" id="u515">
+                                <!-- column -->
+                                <div class="position_content" id="u515_position_content">
+                                    <div class="clearfix colelem" id="u518-4">
+                                        <!-- content -->
+                                        <p>23 June 2015</p>
+                                    </div>
+                                    <a class="nonblock nontext clearfix colelem" id="u517-4" href="http://www.musefree.com">
+                                        <!-- content -->
+                                        <p>“双分双合，多维协同”通信学科创新人才培养模式的研究与实践</p>
+                                    </a>
+                                    <div class="clearfix colelem" id="u516-4">
+                                        <!-- content -->
+                                        <p>信息与通信工程学科（简称信通学科）是信息领域科技发展与人才培养的重要支撑，随着遍及各行各业的信息通信网络的飞速发展，满足行业要求的创新人才数量与规模需求十分迫切，传统信通学科“小规模-同质化-方向单一的人才培养模式”难以满足社会发展需求。在教育部等项目支持下，本成果经过10年的探索与实践，以新模式和新方法为突破口，秉承“德育为先，质量为本”的研究生教育理念。</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u520-4">
+                                        <!-- content -->
+                                        <p>read more</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Button clearfix grpelem" id="buttonu506">
+                            <!-- container box -->
+                            <div class="museBGSize clearfix colelem" id="u509">
+                                <!-- group -->
+                                <div class="rounded-corners clearfix grpelem" id="u508-4">
+                                    <!-- content -->
+                                    <p>Category</p>
+                                </div>
+                            </div>
+                            <div class="clearfix colelem" id="u507">
+                                <!-- column -->
+                                <div class="position_content" id="u507_position_content">
+                                    <div class="clearfix colelem" id="u510-4">
+                                        <!-- content -->
+                                        <p>23 June 2015</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u513-4">
+                                        <!-- content -->
+                                        <p>“双分双合，多维协同”通信学科创新人才培养模式的研究与实践</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u511-4">
+                                        <!-- content -->
+                                        <p>信息与通信工程学科（简称信通学科）是信息领域科技发展与人才培养的重要支撑，随着遍及各行各业的信息通信网络的飞速发展，满足行业要求的创新人才数量与规模需求十分迫切，传统信通学科“小规模-同质化-方向单一的人才培养模式”难以满足社会发展需求。在教育部等项目支持下，本成果经过10年的探索与实践，以新模式和新方法为突破口，秉承“德育为先，质量为本”的研究生教育理念。</p>
+                                    </div>
+                                    <div class="clearfix colelem" id="u512-4">
+                                        <!-- content -->
+                                        <p>read more</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
     <!-- main部分-竖 -->
 
     <div class="vsb-box">
@@ -433,6 +593,53 @@
 
 
     </div>
+
+    <!-- Other scripts -->
+  <script type="text/javascript">
+    // Decide whether to suppress missing file error or not based on preference setting
+    var suppressMissingFileError = false
+  </script>
+  <script type="text/javascript">
+    window.Muse.assets.check = function (c) {
+      if (!window.Muse.assets.checked) {
+        window.Muse.assets.checked = !0; var b = {}, d = function (a, b) { if (window.getComputedStyle) { var c = window.getComputedStyle(a, null); return c && c.getPropertyValue(b) || c && c[b] || "" } if (document.documentElement.currentStyle) return (c = a.currentStyle) && c[b] || a.style && a.style[b] || ""; return "" }, a = function (a) {
+          if (a.match(/^rgb/)) return a = a.replace(/\s+/g, "").match(/([\d\,]+)/gi)[0].split(","), (parseInt(a[0]) << 16) + (parseInt(a[1]) << 8) + parseInt(a[2]); if (a.match(/^\#/)) return parseInt(a.substr(1),
+            16); return 0
+        }, f = function (f) {
+          for (var g = document.getElementsByTagName("link"), j = 0; j < g.length; j++)if ("text/css" == g[j].type) { var l = (g[j].href || "").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/); if (!l || !l[1] || !l[2]) break; b[l[1]] = l[2] } g = document.createElement("div"); g.className = "version"; g.style.cssText = "display:none; width:1px; height:1px;"; document.getElementsByTagName("body")[0].appendChild(g); for (j = 0; j < Muse.assets.required.length;) {
+            var l = Muse.assets.required[j], k = l.match(/([\w\-\.]+)\.(\w+)$/), i = k && k[1] ?
+              k[1] : null, k = k && k[2] ? k[2] : null; switch (k.toLowerCase()) { case "css": i = i.replace(/\W/gi, "_").replace(/^([^a-z])/gi, "_$1"); g.className += " " + i; i = a(d(g, "color")); k = a(d(g, "backgroundColor")); i != 0 || k != 0 ? (Muse.assets.required.splice(j, 1), "undefined" != typeof b[l] && (i != b[l] >>> 24 || k != (b[l] & 16777215)) && Muse.assets.outOfDate.push(l)) : j++; g.className = "version"; break; case "js": j++; break; default: throw Error("Unsupported file type: " + k); }
+          } c ? c().jquery != "1.8.3" && Muse.assets.outOfDate.push("jquery-1.8.3.min.js") : Muse.assets.required.push("jquery-1.8.3.min.js");
+          g.parentNode.removeChild(g); if (Muse.assets.outOfDate.length || Muse.assets.required.length) g = "服务器上的某些文件可能缺失或不正确。请在清除浏览器高速缓存后重试。如果问题仍然存在，请联系网站作者。", f && Muse.assets.outOfDate.length && (g += "\nOut of date: " + Muse.assets.outOfDate.join(",")), f && Muse.assets.required.length && (g += "\nMissing: " + Muse.assets.required.join(",")), suppressMissingFileError ? (g += "\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.", console.log(g)) : alert(g)
+        }; location && location.search && location.search.match && location.search.match(/muse_debug/gi) ?
+          setTimeout(function () { f(!0) }, 5E3) : f()
+      }
+    };
+    var muse_init = function () {
+      require.config({ baseUrl: "" }); require(["jquery", "museutils", "whatinput", "jquery.musemenu", "jquery.watch", "webpro", "musewpslideshow", "jquery.museoverlay", "touchswipe", "jquery.musepolyfill.bgsize", "jquery.scrolleffects"], function (c) {
+        var $ = c; $(document).ready(function () {
+          try {
+            window.Muse.assets.check($);/* body */
+            Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+            Muse.Utils.prepHyperlinks(true);/* body */
+            Muse.Utils.resizeHeight('.browser_width');/* resize height */
+            Muse.Utils.requestAnimationFrame(function () { $('body').addClass('initialized'); });/* mark body as initialized */
+            Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+            Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function (elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+            Muse.Utils.initWidget('#slideshowu629', ['#bp_infinity'], function (elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, { autoPlay: true, displayInterval: 3500, slideLinkStopsSlideShow: false, transitionStyle: 'fading', lightboxEnabled_runtime: false, shuffle: false, transitionDuration: 500, enableSwipe: true, elastic: 'fullWidth', resumeAutoplay: true, resumeAutoplayInterval: 3000, playOnce: false, autoActivate_runtime: false, isResponsive: false }); $(elem).data('widget', widget); return widget; });/* #slideshowu629 */
+            Muse.Utils.fullPage('#page');/* 100% height page */
+            $('#u386').registerBackgroundPositionScrollEffect([{ "in": [-Infinity, 1258.4], "speed": [0, 0] }, { "in": [1258.4, Infinity], "speed": [0, 0] }]);/* scroll effect */
+            Muse.Utils.showWidgetsWhenReady();/* body */
+            Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+          } catch (b) { if (b && "function" == typeof b.notify ? b.notify() : Muse.Assert.fail("Error calling selector function: " + b), false) throw b; }
+        })
+      })
+    };
+  </script>
+  <!-- RequireJS script -->
+  <script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=310584261"
+    onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }"
+    onerror="window.Muse.assets.check();"></script>
 
 </body>
 
