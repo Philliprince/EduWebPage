@@ -527,7 +527,7 @@
 	white-space: nowrap;
 	overflow: hidden;
 }
-.oneLeft .insidelOne .insiBom .trailer{
+/* .oneLeft .insidelOne .insiBom .trailer{
 	width: 268px;
 	height: auto;
 	margin-left: 20px;
@@ -566,7 +566,7 @@
 }
 .oneLeft .insidelOne .insiBom .trailer p a{
 	color: #5a7fa1;
-}
+} */
 /*æ–‡å­—åˆ—è¡¨*/
 .oneLeft .insidelOne .insiBom .textList,
 .oneRight .insiderOne .textList{
@@ -1538,7 +1538,7 @@
 	border-bottom: 1px dashed #eee;
 }
 .brief p{
-	color: #666666;
+	/* color: #666666; */
 	text-indent: 2em;
 	line-height: 30px;
 }
