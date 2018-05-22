@@ -233,12 +233,8 @@
 	margin-left: 14px;
 	width: 14px;
 	height: 14px;
-	background:url(../images/ico1.png) no-repeat;
 	cursor: pointer;
 	border-radius: 50%;
-}
-.slideBox2 .hd ul li.on {
-	background: url(../images/ico.png) no-repeat;
 }
 .slideBox2 .bd li {
 	position: relative;
@@ -278,7 +274,6 @@
 .slideBox2 .next {
 	width:40px;
 	height: 74px;
-	background: url(../images/arrow2.png) 0 0 no-repeat;
 }
 .slideBox2 .next{
 	background-position: right 0;
