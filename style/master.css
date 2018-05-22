@@ -73,6 +73,7 @@
 	background: rgb(11, 127, 171);
 	position: relative;
 	z-index: 9;
+	box-shadow: 0 4px 10px #515151;
 }
 .innavWrap {
 	width: 1180px;
@@ -90,7 +91,7 @@
 }
 .innavWrap ul li:hover,
 .innavWrap ul li a.cur {
-	background: #869bae;
+	background: rgb(28, 182, 241);
 }
 .innavWrap ul li a {
 	color: #ffffff;
@@ -114,13 +115,16 @@
 	/* 避免下拉框字数多的时候不对齐 */
 	/* width: 102px;
 	margin: 0 18px; */
-	border-bottom: 1px solid #5a7fa1;
+	border-bottom: 1px solid #cccccc;
 	font-size: 14px;
 	height: 42px;
 	line-height: 42px;
 }
+.innavWrap ul li #nav a:hover{
+	background: rgb(28, 182, 241);
+}
 #nav a:hover{
-	color: rgba(255,255,255,0.5);
+	color: #ffffff;
 }
 /*banner*/
 .banner{
@@ -1640,6 +1644,7 @@
 	display: flex;
 	-ms-flex-align: middle;
 	align-items: middle;
+	/* margin-left:15%;  */
 }
 
 .header-right {
