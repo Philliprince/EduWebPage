@@ -5,7 +5,7 @@
 
 #page {
     z-index: 1;
-    width: 1020px;
+    width: 1200px;
     background-image: none;
     border-width: 0px;
     border-color: #000000;
@@ -1656,7 +1656,7 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 1020px;
+    width: 1200px;
     left: -100px;
 }
 
@@ -2050,7 +2050,7 @@
 
 body {
     position: relative;
-    min-width: 1020px;
+    min-width: 1200px;
 }
 
 .verticalspacer {
