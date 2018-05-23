@@ -1243,12 +1243,12 @@
 }
 /*footOne*/
 .footOne{
-          width:100%;
-          text-align:center;
+	width:100%;
+    text-align:center;
 	height: 44px;
 	line-height: 44px;
 	color: #fff;
-	background: #5a7fa1;
+	background: rgb(11, 127, 171);
 	margin-top: 16px;
 }
 .footOne .ftone_l a{
