@@ -1410,11 +1410,12 @@
 .n_right{
 	width: 858px;
 	_width: 840px;
-	margin: 0 10px;
+	margin: 0 0px;
 	float: left;
     border: 1px solid #eee;
 	height: auto;
 }
+
 .list {
     padding: 0 14px;
 }
