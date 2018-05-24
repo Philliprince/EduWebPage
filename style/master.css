@@ -1651,12 +1651,12 @@
 	text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff;
 }
 .school {
-	font: normal 3rem STXingkai;
+	font: normal 2.7rem STXingkai;
 	padding: 0 1rem;
 }
 .header .info {
-	color: #ddb100;
-	font: normal 1.9rem STHeiti;
+	color: #FE9A2E;
+	font: bold 1.7rem STHeiti;
 }
 .header .info,
 .school {
