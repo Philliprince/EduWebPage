@@ -44,7 +44,7 @@
 #u697 {
     z-index: 282;
     width: 100px;
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     border-radius: 200px;
     padding-bottom: 2px;
     position: relative;
@@ -123,7 +123,7 @@
     line-height: 19px;
     font-size: 16px;
     text-align: center;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     position: relative;
@@ -185,7 +185,7 @@
     line-height: 19px;
     font-size: 16px;
     text-align: center;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     position: relative;
@@ -241,7 +241,7 @@
     line-height: 19px;
     font-size: 16px;
     text-align: center;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     position: relative;
@@ -304,7 +304,7 @@
     line-height: 19px;
     font-size: 16px;
     text-align: center;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     position: relative;
@@ -373,7 +373,7 @@
     line-height: 19px;
     font-size: 16px;
     text-align: center;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     position: relative;
@@ -436,7 +436,7 @@
     line-height: 19px;
     font-size: 16px;
     text-align: center;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     position: relative;
@@ -505,7 +505,7 @@
     line-height: 19px;
     font-size: 16px;
     text-align: center;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     position: relative;
@@ -641,7 +641,7 @@
     line-height: 43px;
     text-transform: uppercase;
     text-align: center;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     position: relative;
@@ -664,6 +664,7 @@
     background-color: transparent;
     position: relative;
     margin-right: -10000px;
+    left: 306px;
 }
 
 #u597 {
@@ -674,7 +675,7 @@
     filter: alpha(opacity=100);
     padding-bottom: 148px;
     position: relative;
-    background: transparent url("../images/radio.jpg?crc=3763636148") no-repeat center center;
+    background: transparent url("../images/bupt.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -682,7 +683,7 @@
     z-index: 195;
     width: 57px;
     min-height: 14px;
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     border-radius: 2px;
     font-size: 10px;
     line-height: 13px;
@@ -709,20 +710,20 @@
     width: 196px;
     min-height: 13px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     line-height: 13px;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     margin-left: 14px;
     position: relative;
 }
 
 #u600-4 {
     z-index: 183;
-    width: 445px;
+    width: 500px;
     min-height: 29px;
     background-color: transparent;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px; 
     line-height: 23px;
     font-family: coda, sans-serif;
     font-weight: 400;
@@ -736,7 +737,7 @@
     width: 562px;
     min-height: 99px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     color: #7F7F7F;
     line-height: 19px;
     font-family: coda, sans-serif;
@@ -765,7 +766,7 @@
     line-height: 12px;
     text-transform: uppercase;
     text-align: left;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     margin-top: 4px;
@@ -773,7 +774,7 @@
 }
 
 #buttonu594:hover #u598-4 {
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     padding-top: 9px;
     padding-bottom: 0px;
     min-height: 21px;
@@ -794,7 +795,6 @@
     background-color: transparent;
     position: relative;
     margin-right: -10000px;
-    left: 611px;
 }
 
 #u590 {
@@ -813,7 +813,7 @@
     z-index: 172;
     width: 57px;
     min-height: 14px;
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     border-radius: 2px;
     font-size: 10px;
     line-height: 13px;
@@ -840,9 +840,9 @@
     width: 196px;
     min-height: 13px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     line-height: 13px;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     margin-left: 14px;
     position: relative;
 }
@@ -853,7 +853,7 @@
     min-height: 28px;
     background-color: transparent;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px; 
     line-height: 23px;
     font-family: coda, sans-serif;
     font-weight: 400;
@@ -867,7 +867,7 @@
     width: 255px;
     min-height: 99px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     color: #7F7F7F;
     line-height: 19px;
     font-family: coda, sans-serif;
@@ -896,7 +896,7 @@
     line-height: 12px;
     text-transform: uppercase;
     text-align: left;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     margin-top: 3px;
@@ -904,7 +904,7 @@
 }
 
 #buttonu586:hover #u592-4 {
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     padding-top: 9px;
     padding-bottom: 0px;
     min-height: 21px;
@@ -951,7 +951,7 @@
     z-index: 218;
     width: 57px;
     min-height: 14px;
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     border-radius: 2px;
     font-size: 10px;
     line-height: 13px;
@@ -978,9 +978,9 @@
     width: 196px;
     min-height: 13px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     line-height: 13px;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     margin-left: 14px;
     position: relative;
 }
@@ -991,7 +991,7 @@
     min-height: 28px;
     background-color: transparent;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px; 
     line-height: 23px;
     font-family: coda, sans-serif;
     font-weight: 400;
@@ -1013,7 +1013,7 @@
     width: 254px;
     min-height: 100px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     color: #7F7F7F;
     line-height: 19px;
     font-family: coda, sans-serif;
@@ -1042,7 +1042,7 @@
     line-height: 12px;
     text-transform: uppercase;
     text-align: left;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     margin-top: 3px;
@@ -1050,7 +1050,7 @@
 }
 
 #buttonu602:hover #u605-4 {
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     padding-top: 9px;
     padding-bottom: 0px;
     min-height: 21px;
@@ -1097,7 +1097,7 @@
     z-index: 102;
     width: 57px;
     min-height: 14px;
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     border-radius: 2px;
     font-size: 10px;
     line-height: 13px;
@@ -1124,9 +1124,9 @@
     width: 196px;
     min-height: 13px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     line-height: 13px;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     margin-left: 14px;
     position: relative;
 }
@@ -1137,7 +1137,7 @@
     min-height: 23px;
     background-color: transparent;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px; 
     line-height: 23px;
     font-family: coda, sans-serif;
     font-weight: 400;
@@ -1157,9 +1157,9 @@
 #u541-4 {
     z-index: 94;
     width: 253px;
-    min-height: 120px;
+    min-height: 114px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     color: #7F7F7F;
     line-height: 19px;
     font-family: coda, sans-serif;
@@ -1188,7 +1188,7 @@
     line-height: 12px;
     text-transform: uppercase;
     text-align: left;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     margin-top: 3px;
@@ -1196,7 +1196,7 @@
 }
 
 #buttonu537:hover #u538-4 {
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     padding-top: 9px;
     padding-bottom: 0px;
     min-height: 21px;
@@ -1228,7 +1228,7 @@
     filter: alpha(opacity=100);
     padding-bottom: 148px;
     position: relative;
-    background: transparent url("../images/cgzs2.png") no-repeat center center;
+    background: transparent url("../images/cgzj1.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -1236,7 +1236,7 @@
     z-index: 148;
     width: 57px;
     min-height: 14px;
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     border-radius: 2px;
     font-size: 10px;
     line-height: 13px;
@@ -1263,9 +1263,9 @@
     width: 196px;
     min-height: 13px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     line-height: 13px;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     margin-left: 14px;
     position: relative;
 }
@@ -1276,7 +1276,7 @@
     min-height: 27px;
     background-color: transparent;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px; 
     line-height: 23px;
     font-family: coda, sans-serif;
     font-weight: 400;
@@ -1290,7 +1290,7 @@
     width: 254px;
     min-height: 116px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     color: #7F7F7F;
     line-height: 19px;
     font-family: coda, sans-serif;
@@ -1319,7 +1319,7 @@
     line-height: 12px;
     text-transform: uppercase;
     text-align: left;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     margin-top: 3px;
@@ -1327,7 +1327,7 @@
 }
 
 #buttonu553:hover #u554-4 {
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     padding-top: 9px;
     padding-bottom: 0px;
     min-height: 21px;
@@ -1367,7 +1367,7 @@
     z-index: 79;
     width: 57px;
     min-height: 14px;
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     border-radius: 2px;
     font-size: 10px;
     line-height: 13px;
@@ -1394,9 +1394,9 @@
     width: 196px;
     min-height: 13px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     line-height: 13px;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     margin-left: 14px;
     position: relative;
 }
@@ -1407,7 +1407,7 @@
     min-height: 27px;
     background-color: transparent;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px; 
     line-height: 23px;
     font-family: coda, sans-serif;
     font-weight: 400;
@@ -1421,7 +1421,7 @@
     width: 255px;
     min-height: 114px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     color: #7F7F7F;
     line-height: 19px;
     font-family: coda, sans-serif;
@@ -1450,7 +1450,7 @@
     line-height: 12px;
     text-transform: uppercase;
     text-align: left;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     margin-top: 3px;
@@ -1458,7 +1458,7 @@
 }
 
 #buttonu529:hover #u535-4 {
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     padding-top: 9px;
     padding-bottom: 0px;
     min-height: 21px;
@@ -1514,7 +1514,7 @@
     z-index: 125;
     width: 57px;
     min-height: 14px;
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     border-radius: 2px;
     font-size: 10px;
     line-height: 13px;
@@ -1547,9 +1547,9 @@
     width: 196px;
     min-height: 13px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     line-height: 13px;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     margin-left: 14px;
     position: relative;
 }
@@ -1560,7 +1560,7 @@
     min-height: 27px;
     background-color: transparent;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px; 
     line-height: 23px;
     font-family: coda, sans-serif;
     font-weight: 400;
@@ -1582,7 +1582,7 @@
     width: 254px;
     min-height: 113px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     color: #7F7F7F;
     line-height: 19px;
     font-family: coda, sans-serif;
@@ -1611,7 +1611,7 @@
     line-height: 12px;
     text-transform: uppercase;
     text-align: left;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     margin-top: 3px;
@@ -1619,7 +1619,7 @@
 }
 
 #buttonu545:hover #u549-4 {
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     padding-top: 9px;
     padding-bottom: 0px;
     min-height: 21px;
@@ -1657,7 +1657,6 @@
     margin-right: auto;
     position: relative;
     width: 1200px;
-    left: -100px;
 }
 
 #u411-6 {
@@ -1709,7 +1708,7 @@
     z-index: 56;
     width: 57px;
     min-height: 14px;
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     border-radius: 2px;
     font-size: 10px;
     line-height: 13px;
@@ -1736,9 +1735,9 @@
     width: 196px;
     min-height: 13px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     line-height: 13px;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     margin-left: 14px;
     position: relative;
 }
@@ -1749,7 +1748,7 @@
     min-height: 29px;
     background-color: transparent;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px; 
     line-height: 23px;
     font-family: coda, sans-serif;
     font-weight: 400;
@@ -1763,7 +1762,7 @@
     width: 560px;
     min-height: 99px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     color: #7F7F7F;
     line-height: 19px;
     font-family: coda, sans-serif;
@@ -1792,7 +1791,7 @@
     line-height: 12px;
     text-transform: uppercase;
     text-align: left;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     margin-top: 4px;
@@ -1800,7 +1799,7 @@
 }
 
 #buttonu514:hover #u520-4 {
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     padding-top: 9px;
     padding-bottom: 0px;
     min-height: 21px;
@@ -1856,7 +1855,7 @@
     z-index: 33;
     width: 57px;
     min-height: 14px;
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     border-radius: 2px;
     font-size: 10px;
     line-height: 13px;
@@ -1902,9 +1901,9 @@
     width: 196px;
     min-height: 13px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     line-height: 13px;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     margin-left: 14px;
     position: relative;
 }
@@ -1923,7 +1922,7 @@
     min-height: 29px;
     background-color: transparent;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 16px; 
     line-height: 23px;
     font-family: coda, sans-serif;
     font-weight: 400;
@@ -1936,7 +1935,7 @@
     padding-top: 0px;
     padding-bottom: 0px;
     min-height: 29px;
-    width: 445px;
+    width: 500px;
     margin: 8px 0px 0px 14px;
 }
 
@@ -1945,7 +1944,7 @@
     width: 559px;
     min-height: 99px;
     background-color: transparent;
-    font-size: 11px;
+    /* font-size: 11px; */
     color: #7F7F7F;
     line-height: 19px;
     font-family: coda, sans-serif;
@@ -1974,7 +1973,7 @@
     line-height: 12px;
     text-transform: uppercase;
     text-align: left;
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     font-family: coda, sans-serif;
     font-weight: 400;
     margin-top: 4px;
@@ -1982,7 +1981,7 @@
 }
 
 #buttonu506:hover #u512-4 {
-    background-color: #008FA8;
+    background-color: rgb(11, 127, 171);
     padding-top: 9px;
     padding-bottom: 0px;
     min-height: 21px;
@@ -2005,7 +2004,7 @@
 }
 
 #u670.MuseMenuActive #u673-4 p, #u658.MuseMenuActive #u660-4 p, #u665.MuseMenuActive #u666-4 p, #u677.MuseMenuActive #u680-4 p, #u686.MuseMenuActive #u687-4 p, #u691.MuseMenuActive #u694-4 p, #u1070.MuseMenuActive #u1072-4 p, #buttonu594.ButtonSelected #u598-4 p, #buttonu586.ButtonSelected #u592-4 p, #buttonu602.ButtonSelected #u605-4 p, #buttonu537.ButtonSelected #u538-4 p, #buttonu553.ButtonSelected #u554-4 p, #buttonu529.ButtonSelected #u535-4 p, #buttonu545.ButtonSelected #u549-4 p, #buttonu514.ButtonSelected #u520-4 p, #buttonu506.ButtonSelected #u512-4 p {
-    color: #008FA8;
+    color: rgb(11, 127, 171);
     visibility: inherit;
 }
 
